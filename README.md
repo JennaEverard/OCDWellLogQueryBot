@@ -25,7 +25,7 @@ PASSWORD = #INPUT OCD PASSWORD HERE#
 - If you are doing batch runs, place your input files into the ```Inputs``` directory. All input files should be a one column csv with one API per row and no header. An example input file is provided
 - All well logs will be saved in the ```Outputs - well log files``` directory, which will not exist until you run the application for the first time. Each set of well logs will be stored within a sub-directory titled with the well API. If a well has no logs, a directory for it will still be created (sorry - this is the behaviour I needed for my analyses...)
 - When doing single well look-ups, the well information will be printed to the terminal (*not saved*)
-- When you are doing batch runs, all well information will be compiled into a single summary csv that will be saved to the ```Outputs - csv summaries``` directory. An example of this output file is provided.
+- When doing batch runs, all well information will be compiled into a single summary csv that will be saved to the ```Outputs - csv summaries``` directory. An example of this output file is provided.
 
 **Step 4: Run the Application!**
 
